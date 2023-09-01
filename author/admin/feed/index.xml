@@ -8,7 +8,7 @@
 	>
 
 <channel>
-	<title>admin &#8211; Jyv&auml;skyl&auml;n Ravipalvelu</title>
+	<title>admin &#8211; Jyväskylän Ravipalvelu</title>
 	<atom:link href="/author/admin/feed/" rel="self" type="application/rss+xml" />
 	<link>/</link>
 	<description>Unelmiesi ravimatkat</description>
@@ -22,7 +22,7 @@
 
 <image>
 	<url>/wp-content/uploads/2019/02/hevobw-150x150.png</url>
-	<title>admin &#8211; Jyv&auml;skyl&auml;n Ravipalvelu</title>
+	<title>admin &#8211; Jyväskylän Ravipalvelu</title>
 	<link>/</link>
 	<width>32</width>
 	<height>32</height>
