@@ -26,6 +26,28 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14
   gtag('config', 'G-V9T0V7HPD8');
 gtag('config', 'AW-16938938046');
 </script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    function trackConversion() {
+      gtag('event', 'conversion', {'send_to': 'AW-16938938046/QNJXCLCjyawaEL7djo0_'});
+    }
+
+    var phoneLinks = document.querySelectorAll('a[href^="tel:"]');
+    var emailLinks = document.querySelectorAll('a[href^="mailto:"]');
+
+    phoneLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+        trackConversion();
+      });
+    });
+
+    emailLinks.forEach(function(link) {
+      link.addEventListener('click', function() {
+        trackConversion();
+      });
+    });
+  });
+</script>
 <style type="text/css">img.wp-smiley,
 img.emoji {
 	display: inline !important;
